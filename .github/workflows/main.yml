@@ -6,7 +6,7 @@ on:
           - main
     workflow_dispatch:
     schedule:
-        - cron: '0 0 10,14,16 * * ?'
+        - cron: '* * * * *'
     repository_dispatch:
         types: joy
 
